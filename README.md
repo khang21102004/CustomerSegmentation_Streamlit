@@ -1,6 +1,6 @@
 ### **Customer Segmentation App 🧑‍🤝‍🧑|👨‍👨‍👦|👨‍👩‍👧‍👦**
 
-![Customer-Segmentation png](https://github.com/tieugem1997/CustomerSegmentation_Streamlit/assets/39017335/32be23de-981f-4865-9676-6712560f3097)
+![Customer-Segmentation png](https://github.com/khang21102004/CustomerSegmentation_Streamlit/blob/main/Customer-Segmentation.png)
 
 #### **About**
 
@@ -10,7 +10,7 @@ Welcome to our Customer Segmentation App, a dynamic tool developed utilizing **S
 
 Experience the live version hosted on **Streamlit**
 
-[Explore the Customer Segmentation App](https://sentiment-app-tiki.streamlit.app/)
+[Explore the Customer Segmentation App](https://customersegmentationapp-kyz6uf2dbcbzppizg4hara.streamlit.app/)
 
 #### **Project Specifications**
 
