@@ -87,11 +87,12 @@ elif choice == 'Data Understanding':
     # load_data(st.session_state['uploaded_file'])
     
     if st.session_state['df'] is not None:
-        st.write("### Data Overview")
-        st.write("Number of rows:", st.session_state['df'].shape[0])
-        st.write("Number of columns:", st.session_state['df'].shape[1])
-        st.write("First five rows of the data:")
-        st.write(st.session_state['df'].head())
+    st.write("### Data Overview")
+    st.write("Number of rows:", st.session_state['df'].shape[0])
+    st.write("Number of columns:", st.session_state['df'].shape[1])
+
+    st.write("### Full Dataset (tất cả các dòng):")
+    st.dataframe(st.session_state['df'])   # ✅ Hiển thị toàn bộ dataset
 
 elif choice == 'Data preparation': 
     st.write("### Data Cleaning")
@@ -427,3 +428,4 @@ elif choice == 'Predict':
             feedback_df.to_csv('feedback.csv', mode='a', header=False, index=False)
 
         st.success("Your feedback has been recorded!")
+
